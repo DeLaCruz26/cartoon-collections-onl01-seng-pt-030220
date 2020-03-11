@@ -7,7 +7,7 @@ end
 def summon_captain_planet(veggies)
     veggies.map do |veg| veg == veggies.length 
   end
-  veggie.upcase
+  veggies.upcase
 end
 
 def long_planeteer_calls# code an argument here
