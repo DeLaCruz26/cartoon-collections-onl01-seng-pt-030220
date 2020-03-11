@@ -6,8 +6,9 @@ end
 
 def summon_captain_planet(veggies)
     veggies.split.map(&:capitalize).join(' ')
+    veggies
 end
-  veggies
+
   
 
 
