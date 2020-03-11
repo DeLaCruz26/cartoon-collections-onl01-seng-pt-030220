@@ -22,6 +22,6 @@ def find_the_cheese(cheddar_cheese)
         "cheddar"
       else 
         false
-   end
+    end
    puts
 end
