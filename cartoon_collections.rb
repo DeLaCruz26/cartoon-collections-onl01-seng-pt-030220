@@ -23,5 +23,6 @@ def find_the_cheese(cheddar_cheese)
         "cheddar"
       else
         cheddar_cheese.include?("gouda")
+        return cheddar_cheese
     end
 end
