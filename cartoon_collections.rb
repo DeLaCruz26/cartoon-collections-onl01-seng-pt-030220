@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-    veggies.map!(&:upcase) do |veg| veg == veggies.length 
+    veggies.map!(&:upcase) 
   end
     veggies
 end
