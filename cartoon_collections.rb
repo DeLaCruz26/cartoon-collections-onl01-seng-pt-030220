@@ -5,10 +5,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-    veggies.map do |veg| veg == veggies.length 
+    veggies.map!(&:upcase) do |veg| veg == veggies.length 
   end
-    
-  veggies
+    veggies
 end
 
 def long_planeteer_calls# code an argument here
