@@ -1,6 +1,5 @@
 def roll_call_dwarves(dwarves)
-  i = 0 
-  while i < dwarves.length
+  if dwarves
   dwarves.each_with_index do |dwarve, i| 
     i = i + 1
     puts dwarve
