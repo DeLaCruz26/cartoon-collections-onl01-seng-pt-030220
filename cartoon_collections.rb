@@ -21,4 +21,4 @@ def find_the_cheese(cheddar_cheese)
   cheddar_cheese.include?("cheddar")
 end
 
-return cheddar_cheese("cheddar")
+return cheddar_cheese
