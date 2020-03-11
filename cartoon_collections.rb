@@ -6,6 +6,7 @@ end
 
 def summon_captain_planet(veggies)
     veggies.map!(&:upcase)
+      veggies[0..-1].insert("!")
     veggies
 end
 
