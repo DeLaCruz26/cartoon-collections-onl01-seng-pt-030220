@@ -23,5 +23,5 @@ def find_the_cheese(cheddar_cheese)
       else 
         false
     end
-   puts
+   return nil
 end
