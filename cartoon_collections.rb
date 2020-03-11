@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-    veggies.collect {|veg| veg.upcase + "!"}
+    veggies.collect {|veg| veg(&:capitalize) + "!"}
     veggies
 end
 
