@@ -7,8 +7,8 @@ end
 def summon_captain_planet(veggies)
   veggie = []
     veggies.map do |veg| veg == veggies.length 
-      veggie << veggies.
-    return veggies
+      veggie << veggies.insert("!")
+    return veggie.upcase
 end
 
 def long_planeteer_calls# code an argument here
