@@ -1,6 +1,5 @@
 def roll_call_dwarves(dwarves)
-  list = []
-  dwarves.each_with_index do |dwarve, i| list << dwarves.first(4)
+  dwarves.each_with_index do |dwarve, i| 
     puts dwarve
   end
 end
