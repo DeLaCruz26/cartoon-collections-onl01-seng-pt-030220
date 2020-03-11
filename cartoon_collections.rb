@@ -7,7 +7,7 @@ end
 def summon_captain_planet(veggies)
   veggie = []
   veggies.map{ |veg| veg == veggies.length }
-  veggie << veggies.upcase
+  veggie << veggies.upcase("!")
   return veggie
 end
 
