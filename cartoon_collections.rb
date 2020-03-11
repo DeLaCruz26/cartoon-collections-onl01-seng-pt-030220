@@ -5,9 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  veggie = []
     veggies.map do |veg| veg == veggies.length 
-      veggie << veggies[0..-1].insert("!")
   end
   veggie.upcase
 end
