@@ -1,4 +1,5 @@
 def roll_call_dwarves(dwarves)
+  if 
   dwarves.each_with_index do |dwarve, i| 
     puts dwarve
   end
